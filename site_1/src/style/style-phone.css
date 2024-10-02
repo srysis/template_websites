@@ -3,6 +3,10 @@
 		font-size: 18px;
 	}
 
+	#info > p {
+		width: 90%;
+		line-height: 1.2;
+	}
 
 	header {
 		height: 165vh;
