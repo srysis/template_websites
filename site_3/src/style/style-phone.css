@@ -18,11 +18,12 @@
 
 
 	#info > p {
-		width: 80%;
+		width: 86%;
 		margin: auto;
+		font-size: 1em;
 	}
 	#info > img {
-		top: 37%;
+		top: 30%;
 	}
 
 
