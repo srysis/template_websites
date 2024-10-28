@@ -1,0 +1,295 @@
+@media screen and (max-width: 450px) {
+	#info {
+		p {
+			width: 80%;
+			margin: auto;
+			font-size: 1.1em;
+		}
+	
+		img {
+			top: 30%;
+		}	
+	}
+
+	header {
+		h3 {
+			padding: 15px 6%;
+		}
+	}
+
+	#welcome {
+		display: block;
+		height: 90vh;
+		margin-top: 70px;
+		text-align: left;
+
+		h1 {
+			margin-left: 5%;
+			font-size: 3.5em;
+			line-height: 1;
+		}
+
+		p {
+			margin-left: 6%;
+			padding: 20px 0;
+			font-size: 1.1em;
+		}
+
+		button {
+			width: auto;
+			margin: 0;
+			margin-left: 6%;
+			padding: 15px 40px;
+		}
+
+		img {
+			width: 830px;
+			margin: 0;
+			margin-top: 25px;
+			margin-left: -450px;
+			animation: none;
+		}
+	}
+
+	#switches {
+		div.container {
+			width: 66%;
+			margin-left: 33%;
+
+			div {
+				width: 7%;
+				margin: 20px 15px 20px 0;
+			}
+		}
+	}
+
+	#about_game {
+		padding: 40px 0;
+		overflow: hidden;
+
+		div.container {
+			padding: 0 10px;
+
+			div.text_and_button {
+				width: 80%;
+
+				button {
+					width: 80%;
+					margin-top: 120px;
+				}
+			}
+
+			div.image_container {
+				width: 20%;
+				height: auto;
+
+				img {
+					width: auto;
+					left: -320px;
+					top: 23vh;
+					opacity: 1;
+					animation: none;
+				}
+			}
+		}
+	}
+
+	#how_to_play {
+		padding: 40px 0;
+
+		h2 {
+			font-size: 1.7em;
+		}
+
+		hr {
+			width: 60%;
+		}
+
+		div.container {
+			width: 92%;
+			margin: 40px auto;
+
+			p {
+				margin: 30px 0 0px 4%;
+				font-size: 1.6em;
+			}
+
+			div.flex_container {
+				flex-direction: column;
+
+				form {
+					width: 94%;
+					margin-left: 3.3%;
+
+					div.input_container {
+						margin-top: 30px;
+
+						input {
+							margin: 10px 0;
+						}
+
+						input.invalid {
+							background-color: #E5898E;
+						}
+
+						.error_tooltip {
+							position: static;
+							padding: 0;
+							background-color: transparent;
+							font-size: 0.9em;
+						}
+						.error_tooltip::after {
+							display: none;
+						}
+					}
+				}
+
+				div.list_container {
+					width: 100%;
+					margin-left: 15px;
+
+					ol {
+						padding-inline-start: 20px;
+
+						li {
+							padding-left: 10px;
+							font-size: 0.8em;
+						}
+
+						::marker {
+							font-size: 1.4em;
+						}
+					}
+				}
+			}
+
+			button {
+				margin-top: 10px;
+				padding: 15px 15%;
+			}
+		}
+	}
+
+	#earn_money {
+		padding: 60px 0;
+		overflow: hidden;
+
+		h2 {
+			font-size: 1.7em;
+		}
+
+		hr {
+			width: 50%;
+		}
+
+		p {
+			width: 90%;
+		}
+
+		img {
+			width: auto;
+			margin-left: -400px;
+			float: left;
+		}
+
+		div.buttons_container {
+			margin-top: 20%;
+
+			button {
+				width: 40%;
+				margin: 20px 0;
+			}
+		}
+
+		div.buttons_container:after {
+			content: '';
+			position: absolute;
+			clear: both;
+		}
+
+		div.flex_container {
+			width: 90%;
+
+			div.first_flex {
+				width: 80%;
+
+				a {
+					margin-top: 25px;
+				}
+
+				a.add_margin {
+					margin: 0;
+				}
+			}
+
+			div.second_flex {
+				img {
+					width: auto;
+					margin-left: -50px;
+				}
+			}
+		}
+	}
+	
+	footer {
+		h2 {
+			font-size: 1.8em;
+		}
+
+		nav {
+			margin-left: 0;
+
+			a {
+				display: block;
+				margin: 10px 0;
+			}
+		}
+
+		p {
+			font-size: 1.2em;
+		}
+
+		hr {
+			width: 60%;
+		}
+
+		#newsletter_form {
+			margin-top: 15px;
+
+			div.input_container {
+				input {
+					width: 60%;
+				}
+
+				input.invalid {
+					background-color: #7F2C2B;
+				}
+
+				.error_tooltip {
+					display: block;
+					position: static;
+					width: auto;
+					margin-left: 20%;
+					background-color: transparent;
+					font-size: 0.9em;
+					text-align: left;
+				}
+
+				.error_tooltip::after {
+					display: none;
+				}
+			}
+
+			button {
+				width: 60%;
+			}
+		}
+
+		div#subscription_success {
+			h3 {
+				padding: 0 10px;
+				font-size: 1.5em;
+			}
+		}
+	}
+}
