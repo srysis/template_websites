@@ -34,8 +34,8 @@ function AppRoot() {
 				</div>
 			}
 			<AsideTogglerButton toggleVisibilityFunction={setAsideVisibility} />
-			<Header />
 			<Aside visibility={visible} toggleVisibilityFunction={setAsideVisibility}  />
+			<Header />
 			<Main />
 			<Footer />
 		</>
