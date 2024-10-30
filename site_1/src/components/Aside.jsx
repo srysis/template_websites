@@ -2,13 +2,13 @@ import React from "react"
 
 function Aside( {visibility, toggleVisibilityFunction} ) {
 
-	function onClickHandler() {
+	function onInteractHandler() {
 		toggleVisibilityFunction();
 	}
 
 	return (
 		<aside className={visibility ? "visible" : "hidden"} >
-			<div className="overlay" onClick={onClickHandler} ></div>
+			<div className="overlay" onTouchStart={onInteractHandler} ></div>
 			<div id="aside_content" className={visibility ? "visible" : "hidden"} >
 				<button id="sign_up_button">Sign up</button>
 				<ul>
