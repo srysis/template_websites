@@ -4,13 +4,13 @@ import search_icon from "../files/magnifying-glass-solid.svg"
 
 function Aside( {visibility, toggleVisibilityFunction} ) {
 
-	function onClickHandler() {
+	function onInteractHandler() {
 		toggleVisibilityFunction();
 	}
 
 	return (
 		<aside className={visibility ? "visible" : "hidden"} >
-			<div className="overlay" onClick={onClickHandler} ></div>
+			<div className="overlay" onTouchStart={onInteractHandler} ></div>
 			<div id="aside_content" className={visibility ? "visible" : "hidden"} >
 				<input type="search" name="search" id="search_field" placeholder="Search on website" />
 				<button id="search_button"><img src={search_icon} /></button>
