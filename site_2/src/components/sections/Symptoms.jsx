@@ -12,8 +12,12 @@ class Symptoms extends React.Component {
 					</div>
 					<div className="text_and_button">
 						<h2>CORONAVIRUS WHAT IS IT?</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat mauris vitae posuere faucibus. Ut mattis varius quam vitae mattis. Suspendisse ac egestas lectus, ut faucibus risus. Integer posuere pharetra gravida. Sed enim nulla, eleifend eu odio eget, egestas dignissim leo.</p>
-						<br />
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Donec feugiat mauris vitae posuere faucibus. Ut mattis varius quam vitae mattis. 
+							Suspendisse ac egestas lectus, ut faucibus risus. Integer posuere pharetra gravida. 
+							Sed enim nulla, eleifend eu odio eget, egestas dignissim leo.
+						</p>
 						<button className="more blue">READ MORE</button>
 					</div>
 				</div>
