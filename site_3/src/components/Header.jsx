@@ -38,7 +38,7 @@ class Header extends React.Component {
 							<div className="overlay"></div>
 							<div id="login_section">
 								<button id="login_button">LOGIN</button>
-								<button><img src={search_icon} /></button>
+								<button id="search"><img src={search_icon} /></button>
 							</div>
 							<div className="text_and_button">
 								<h1>WEDDING HOUSE</h1>
